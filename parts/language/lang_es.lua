@@ -394,6 +394,9 @@ return {
     ]],
     support="Apoyen al Autor",
     WidgetText={
+        game={
+            -- showInvis="Show Invis"
+        },
         main={
             offline="Mapa de Modos",
             qplay="Reciente: ",
