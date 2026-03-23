@@ -350,7 +350,7 @@ EVENTSETS={
     'ultra',
 }
 
-do-- Mod data
+do-- Mod datal
     local function _disableKey(P,key)
         table.insert(P.gameEnv.keyCancel,key)
     end
@@ -431,24 +431,30 @@ do-- Mod data
             func=function(P,O) P.gameEnv.fall=O end,
             unranked=true,
         },
-        {no=13,id="LF",name="life",
+        {no=13,id="CY",name="cyclone",
+            key="h",x=740,y=350,color='lY',
+            list={'on','off'},
+            func=function(P,O) P.gameEnv.cyclone=O=='on' end,
+            unranked=true,
+        },
+        {no=14,id="LF",name="life",
             key="j",x=860,y=350,color='lY',
             list={0,1,2,3,5,10,15,26,42,87,500},
             func=function(P,O) P.gameEnv.life=O end,
             unranked=true,
         },
-        {no=14,id="FB",name="forceB2B",
+        {no=15,id="FB",name="forceB2B",
             key="k",x=980,y=350,color='lY',
             func=function(P) P.gameEnv.b2bKill=true end,
             unranked=true,
         },
-        {no=15,id="PF",name="forceFinesse",
+        {no=16,id="PF",name="forceFinesse",
             key="l",x=1100,y=350,color='lY',
             func=function(P) P.gameEnv.fineKill=true end,
             unranked=true,
         },
 
-        {no=16,id="TL",name="tele",
+        {no=17,id="TL",name="tele",
             key="z",x=200,y=470,color='lH',
             func=function(P)
                 P.gameEnv.das,P.gameEnv.arr=0,0
@@ -456,7 +462,7 @@ do-- Mod data
             end,
             unranked=true,
         },
-        {no=17,id="FX",name="noRotation",
+        {no=18,id="FX",name="noRotation",
             key="x",x=320,y=470,color='lH',
             func=function(P)
                 _disableKey(P,3)
@@ -465,7 +471,7 @@ do-- Mod data
             end,
             unranked=true,
         },
-        {no=18,id="GL",name="noMove",
+        {no=19,id="GL",name="noMove",
             key="c",x=440,y=470,color='lH',
             func=function(P)
                 _disableKey(P,1)_disableKey(P,2)
@@ -475,19 +481,19 @@ do-- Mod data
             end,
             unranked=true,
         },
-        {no=19,id="CS",name="customSeq",
+        {no=20,id="CS",name="customSeq",
             key="b",x=680,y=470,color='lB',
             list={'bag','bagES','his','hisPool','c2','bagP1inf','rnd','mess','reverb'},
             func=function(P,O) P.gameEnv.sequence=O end,
             unranked=true,
         },
-        {no=20,id="PS",name="pushSpeed",
+        {no=21,id="PS",name="pushSpeed",
             key="n",x=800,y=470,color='lB',
             list={.5,1,2,3,5,15,1e99},
             func=function(P,O) P.gameEnv.pushSpeed=O end,
             unranked=true,
         },
-        {no=21,id="BN",name="boneBlock",
+        {no=22,id="BN",name="boneBlock",
             key="m",x=920,y=470,color='lB',
             list={'on','off'},
             func=function(P,O) P.gameEnv.bone=O=='on' end,
@@ -645,6 +651,7 @@ do-- Userdata tables
         splashFX=2,
         shakeFX=2,
         atkFX=2,
+        lockFXType='swipe',
         cleanCanvas=false,
         blockSatur='normal',
         fieldSatur='normal',

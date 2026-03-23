@@ -223,6 +223,7 @@ return {
         lockDelay="Lock Delay\nSobreescribe el retraso de bloqueo (en frames).",
         waitDelay="Spawn Delay\nSobreescribe el retraso de spawneo (en frames).",
         fallDelay="Line Clear Delay\nSobreescribe el retraso de limpieza de líneas, en frames.",
+        -- cyclone="Cyclone:\nThe piece will randomly rotate before spawning",
         life="Life\nCambia el nro inicial de vidas.",
         forceB2B="B2B Only\nTermina el juego si la barra de B2B baja por debajo del valor inicial.",
         forceFinesse="Finesse Only\nTermina el juego si se comete un error de finesse.",

@@ -44,6 +44,7 @@ return {
     skinSet='Crystal (Scf)',
     face=false,skin=false,
     mission=false,
+    cyclone=false,
 
     life=0,
     garbageSpeed=1,

@@ -224,6 +224,7 @@ return {
         lockDelay="Lock Delay\nOverrides the lock delay (in frames).",
         waitDelay="Spawn Delay\nOverrides the spawn delay (in frames).",
         fallDelay="Line Clear Delay\nOverrides the line clear delay (in frames).",
+        cyclone="Cyclone:\nThe piece will randomly rotate before spawning",
         life="Lives\nChanges the initial number of extra lives.",
         forceB2B="B2B Only\nEnds the game when the B2B gauge drops below the starting line.",
         forceFinesse="Finesse Only\nEnds the game after a finesse error.",

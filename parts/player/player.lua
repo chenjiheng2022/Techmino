@@ -1555,7 +1555,7 @@ end
 
 function Player:_getBlock(id,name,color,bagLineCounter)-- Get a block object
     local ENV=self.gameEnv
-    local dir=ENV.face[id]
+    local dir=ENV.cyclone and (ENV.face[id]+rnd(0,3))%4 or ENV.face[id]
     return {
         id=id,
         dir=dir,

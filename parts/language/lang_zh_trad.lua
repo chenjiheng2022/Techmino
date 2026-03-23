@@ -224,6 +224,7 @@ return {
         lockDelay="鎖延:\n強制使用鎖定延遲(單位:幀)",
         waitDelay="生成延遲:\n方塊生成後的等待時間(單位:幀)",
         fallDelay="清除延遲:\n清除行後的等待時間(單位:幀)",
+        cyclone="颶風:\n方塊即将生成時隨機旋轉",
         life="生命計數:\n修改初始生命計數",
         forceB2B="強制B2B:\n當B2B儀表低於初始線時結束遊戲",
         forceFinesse="強制finesse:\n非finesse操作將強制結束遊戲",

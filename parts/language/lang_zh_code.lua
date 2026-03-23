@@ -172,6 +172,7 @@ return {
         lockDelay="Mod.LockDelay();\n//强制使用锁定延迟(单位:帧)",
         waitDelay="Mod.WaitDelay();\n//出块后的等待时间(单位:帧)",
         fallDelay="Mod.FallDelay();\n//消行后的等待时间(单位:帧)",
+        cyclone="Mod.Cyclone();\n//方块即将入场时随机旋转",
         life="Mod.Life();\n//修改初始生命数量",
         forceB2B="Mod.ForceB2B();\n//B2B条掉到启动线以下就会结束游戏",
         forceFinesse="Mod.ForceFinesse();\n//非极简操作将强制结束游戏",

@@ -212,6 +212,7 @@ return {
         lockDelay="Demora de trava\nSobrepõe a demora de trava (unidade: frames)",
         waitDelay="Demora de nascer\nSobrepõe a demora de blocos nascer (unidade: frames)",
         fallDelay="Demora de linhas\nSobrepõe demora de linhas depois de limpar-las (unidade: frames)",
+        -- cyclone="Cyclone:\nThe piece will randomly rotate before spawning",
         life="Vidas\nSobrepõe o número de vidas jogadores tem",
         forceB2B="Apenas B2B\nO jogo termina quando o calibre de B2B cai abaixo a linha do começo",
         forceFinesse="Só Destreza\nO jogo termina quando erra a destreza",

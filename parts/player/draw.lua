@@ -534,7 +534,8 @@ local function _drawNext(P,repMode)
                     hiding=false
                 end
 
-                local bk,sprite=queue[N].bk,texture[queue[N].color]
+                local bk=(ENV.cyclone and N>1) and BLOCKS[queue[N].id][ENV.face[queue[N].id]] or queue[N].bk
+                local sprite=texture[queue[N].color]
                 local k=min(2.3/#bk,3/#bk[1],.85)
                 gc_scale(k)
                 for i=1,#bk do for j=1,#bk[1] do

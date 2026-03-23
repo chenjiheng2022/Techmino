@@ -225,6 +225,7 @@ return {
         lockDelay="Lock Delay\n設置猶予をフレーム単位で変更します",
         waitDelay="Spawn Delay\nブロックの出現猶予をフレーム単位で変更します",
         fallDelay="Line Clear Delay\nLine消去時間をフレーム単位で変更します",
+        -- cyclone="Cyclone:\nThe piece will randomly rotate before spawning",
         life="Life\n残機数を変更します",
         forceB2B="B2B Only\nB2Bが途切れるとゲームオーバーです",
         forceFinesse="Finesse Only\n最適化を失敗するとゲームオーバーです",

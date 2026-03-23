@@ -224,6 +224,7 @@ return {
         lockDelay="Tunda Mengunci\nMengubah tunda kunci dalam frame.",
         waitDelay="Tunda Muncul\nMengubah tunda muncul blok dalam frame.",
         fallDelay="Tunda Baris\nMengubah tunda baris jatuh dalam frame.",
+        -- cyclone="Cyclone:\nThe piece will randomly rotate before spawning",
         life="Nyawa\nMengubah nomor awal nyawa.",
         forceB2B="Hanya B2B\nMengakhirkan permainan jika meter B2B jatuh ke 0.",
         forceFinesse="Efisiensi Tombol Maximum\nMengakhirkan permainan jika efisiensi tombol tidak maksimum.",

@@ -224,6 +224,7 @@ return {
         lockDelay="锁延:\n强制使用锁定延迟(单位:帧)",
         waitDelay="出块等待:\n出块后的等待时间(单位:帧)",
         fallDelay="消行等待:\n消行后的等待时间(单位:帧)",
+        cyclone="飓风:\n方块即将入场时随机旋转",
         life="生命数:\n修改初始生命数量",
         forceB2B="强制B2B:\nB2B条掉到启动线以下就会结束游戏",
         forceFinesse="强制极简:\n非极简操作将强制结束游戏",
