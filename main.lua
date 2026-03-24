@@ -22,7 +22,7 @@ VERSION=require"version"
 TIME=love.timer.getTime
 
 -- Global Vars & Settings
-SFXPACKS={'chiptune'}
+SFXPACKS={'chiptune','TGM'}
 VOCPACKS={'miya','miya_old','mono','xiaoya','flore','neuro','miku','zundamon'}
 FIRSTLAUNCH=false
 DAILYLAUNCH=false
