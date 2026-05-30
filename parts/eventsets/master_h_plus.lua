@@ -14,7 +14,9 @@ return {
     end,
     hook_drop=function(P)
         local D=P.modeData
+        if P.lastPiece.row==0 then
         D.garbageQuota=D.garbageQuota+1
+        end
         if D.garbageQuota>=death_garbage[D.target/100] then
         D.garbageQuota=0
         SFX.play('collect')
