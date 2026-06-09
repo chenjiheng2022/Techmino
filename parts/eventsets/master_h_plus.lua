@@ -49,6 +49,7 @@ return {
             E.garbage=death_garbage[s]
             if s==3 then
                 E.das=5
+                BGM.play('super7th')
                 BG.set('rainbow')
             elseif s==5 then
                 E.das=4
